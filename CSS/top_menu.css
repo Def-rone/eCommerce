@@ -1,0 +1,59 @@
+/* CSS Document */
+
+
+/******************/
+/****** appreal ***/
+/******************/
+
+.apparel_top_title
+{
+	background-color:#603075;
+	color:#FFF;
+	text-shadow: 1px 1px 2px black;
+	-webkit-text-shadow:1px 1px 2px black;
+	-moz-text-shadow:1px 1px 2px black;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=135,strength=2,color=black);
+	text-align:left;
+	padding-left:10px;
+	border:1px solid #CCC;
+	position:relative;
+	height:33px;
+	width:950px;
+	margin: 0 auto;  /*center div */
+}
+
+#male_image_wrapper
+{	 
+	margin: 0 auto;  /*center div */
+}
+#male_image_wrapper img
+{
+	width:960px;
+	height:170px; 
+}
+#apparel_content_page_wrapper
+{
+	background-color: #fff;
+	width:960px;
+	margin: 0 auto; /*center div */
+}
+#apparel_form
+{
+	float:left;
+	padding-left:40px;
+
+}
+#apparel_form label
+{
+	font-weight:bold;
+	color:black;
+}
+#hr
+{
+	color: #C00;
+	width:960px;
+}
+#apparel_form
+{
+	
+}

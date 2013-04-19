@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.top_title
+{
+	background-color:#603075;
+	color:#FFF;
+	text-shadow: 1px 1px 2px black;
+	-webkit-text-shadow:1px 1px 2px black;
+	-moz-text-shadow:1px 1px 2px black;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=135,strength=2,color=black);
+	text-align:left;
+	padding:5px;
+	padding-left:15px;
+	border-bottom:3px solid #000;
+	border:1px solid #FFF;
+	position:relative;
+}
+#l_lock_img
+{
+	position:absolute;
+	left: 240px;
+	top:23px;
+}
+#f_lock_img
+{
+	position:absolute;
+	left: 230px;
+	top:23px;
+}
+#add_img
+{
+	position:absolute;
+	left: 165px;
+	top:25px;
+}
+
+
+/* login form */	
+#left_login
+{
+	float:left;
+}
+.right_form, .zoom_left_form
+{
+	float:right;	
+	position:relative;
+}
+#login{
+	margin:5em auto;
+	background:#fff;
+	border:8px solid #eee;
+	width:500px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 10px #4e707c;
+	-webkit-box-shadow:0 0 10px #4e707c;
+	box-shadow:0 0 10px #333;
+	text-align:left;
+	position:absolute;
+	right:40px;
+	top:-10px;
+	}
+
+#login a, #login a:visited{color:#006ec7;}
+#login a:hover{color:#006ec7;}
+#login h1{
+	background:#b933ad;
+	color:#fff;
+	text-shadow: 1px 1px 2px black;
+	-webkit-text-shadow:1px 1px 2px black;
+	-moz-text-shadow:1px 1px 2px black;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=135,strength=2,color=black);
+	font-size:14px;
+	padding:18px 23px;
+	margin:0 0 1.5em 0;
+	border-bottom:3px solid #603075;
+	}
+
+#login p{margin:.5em 25px;}
+#login .forgot{text-align:right;font-size:11px;}
+#login .back{padding:1em 0;border-top:1px solid #eee;text-align:right;font-size:11px;}
+#login div{
+	margin:.5em 25px;
+	background:#E8E8E8;
+	padding:4px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	text-align:right;
+	position:relative;
+	}	
+#login label{
+	float:left;
+	line-height:30px;
+	padding-left:10px;
+	font-weight:bold;
+	}
+	
+	 
+#login .field{
+	border:1px solid #ccc;
+	width:280px;
+	font-size:12px;
+	line-height:1em;
+	padding:4px;
+	padding-left:10px;
+	-moz-box-shadow:inset 0 0 5px #ccc;
+	-webkit-box-shadow:inset 0 0 5px #ccc;
+	box-shadow:inset 0 0 5px #ccc;
+	}	
+
+
+input::-webkit-input-placeholder {padding-top:3px;}
+input:-moz-placeholder{padding-top:3px;}
+	
+#login #submit{background:none;margin:1em 25px;text-align:left;}	
+#login div#submit label{float:none;display:inline;font-size:11px;}	
+#login button{
+	border:0;
+	padding:0 30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	text-shadow:#000 0 1px 0;
+	background:#666;
+	cursor:pointer;
+	}
+#login button:hover
+{
+	border:.90px solid #000;
+	padding:0 30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	text-shadow:#000 0 1px 0;
+	background:#515151;
+	cursor:pointer;
+}
+	
+#submit
+{
+	position:relative;
+}
+#login_remember{
+	position:absolute;
+	right:305px;
+	top:8px;
+}
+#login_stay
+{
+	position:absolute;
+	right:170px;
+	top: -4px;
+}
+
+
+
+
+
+
+
+/**************** zoom right form *****************************/
+.zoom_right_form
+{
+	position:relative;
+}
+#zoom_login{
+	margin:1em auto;
+	background:#fff;
+	border:8px solid #eee;
+	width:360px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 10px #4e707c;
+	-webkit-box-shadow:0 0 10px #4e707c;
+	box-shadow:0 0 10px #333;
+	text-align:left;
+	position:absolute;
+	left:800px;
+	bottom:720px;
+	}
+#zoom_login a, #zoom_login a:visited{color:#006ec7;}
+#zoom_login a:hover{color:#006ec7;}
+#zoom_login h1{
+	background:#b933ad;
+	color:#fff;
+	text-shadow: 1px 1px 2px black;
+	-webkit-text-shadow:1px 1px 2px black;
+	-moz-text-shadow:1px 1px 2px black;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=135,strength=2,color=black);
+	font-size:14px;
+	padding:10px 23px;
+	margin:0 0 1.5em 0;
+	border-bottom:3px solid #603075;
+	}
+#zoom_login div{
+	margin:.5em 10px;
+	background:#E8E8E8;
+	padding:4px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	text-align:right;
+	position:relative;
+	height: 25px;
+	}	
+#zoom_login label{
+	float:left;
+	line-height:30px;
+	padding-left:10px;
+	font-weight:bold;
+}
+#qty_field
+{
+	float:left;
+	margin-left: 10px;
+}
+
+
+
+#apparel_form
+{
+	background-color:#E8E8E8;
+	border:1px solid #ccc;
+	width:620px;
+	height:50px;
+	margin-top:15px;
+	position:relative;
+	left:19px;	
+}
+
+#apparel_form form
+{
+	float:left;
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// DIALOG BOX ///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+#opener
+{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// SELECT BOX ///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+select
+{
+	width:140px;
+}
+select.color_select{
+    position:relative;
+	right: 43px;
+    z-index:10;
+    width:140px !important;
+    height:26px !important;
+    line-height:26px;	
+}
+/* dynamically created SPAN, placed below the SELECT */
+span.color_select
+{
+	position:absolute;
+    bottom:0;
+    left:10px;
+	width:140px;
+    height:26px;
+    line-height:26px;
+    text-indent:10px;
+	text-align:left;
+    background:url(../IMAGE/bg_select.png) no-repeat 0 0;
+    cursor:default;
+    z-index:1;
+	color: #fff;
+	font-weight:bold;
+	font-size:12px;
+	text-shadow:#000 0 1px 0;
+}
+select.size_select{
+    position:relative;
+	right: 4px;
+    z-index:10;
+    width:140px !important;
+    height:26px !important;
+    line-height:26px;	
+}
+/* dynamically created SPAN, placed below the SELECT */
+span.size_select
+{
+	 position:absolute;
+    bottom:0;
+    right:10px;
+	width:140px;
+    height:26px;
+    line-height:26px;
+    text-indent:10px;
+	text-align:left;
+    background:url(../IMAGE/bg_select.png) no-repeat 0 0;
+    cursor:default;
+    z-index:1;
+	color: #fff;
+	font-weight:bold;
+	font-size:12px;
+	text-shadow:#000 0 1px 0;
+}
+
+
+#list ul li
+{
+	color:red;
+}
+
+#list ul b
+{
+	border:1px solid red;
+	padding-bottom:40px;
+}

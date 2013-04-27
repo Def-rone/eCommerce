@@ -15,7 +15,7 @@
 </div>      
 
  <div id = 'login_content_page_wrapper'>
- 	<applet code = "Main.class" width = 400 height = 400> </applet>	
+ 	<applet code = "main.class" width = 900 height = 400> </applet>	
 </div>
 
 

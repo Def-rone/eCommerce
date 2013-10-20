@@ -3,8 +3,8 @@
 include('../INCLUDE/connect.php');
 
 //Unset cookies
-setcookie("id", "", time()-172800, '/E_COMMERCE/');
-setcookie("username", "", time()-172800, '/E_COMMERCE/');
+setcookie("id", "", time()-172800, '/eCommerce/');
+setcookie("username", "", time()-172800, '/eCommerce/');
  
 $c =$_COOKIE['username'];
 
